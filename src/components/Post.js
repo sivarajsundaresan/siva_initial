@@ -28,7 +28,7 @@ class Post extends Component {
 	render() {
 		return (
 			<Fragment>
-				<Link to="/posts/new" className="btn btn-primary">New Post</Link>
+				<Link to="/post/new" className="btn btn-primary">New Post</Link>
 				<PostList posts={this.state.posts} />
 			</Fragment>
 		)
